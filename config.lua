@@ -124,23 +124,42 @@ Config.AuthorizedWeapons = {
 
 Config.AuthorizedVehicles = {
 	car = {
-		recruit = {},
+		recruit = {
+			{model = 'police1', price = 20000},
+			{model = 'police2', price = 20000},
+			{model = 'police3', price = 20000}
+		},
 
 		officer = {
+			{model = 'police1', price = 20000},
+			{model = 'police2', price = 20000},
 			{model = 'police3', price = 20000}
 		},
 
 		sergeant = {
+			{model = 'police1', price = 20000},
+			{model = 'police2', price = 20000},
+			{model = 'police3', price = 20000},
 			{model = 'policet', price = 18500},
 			{model = 'policeb', price = 30500}
 		},
 
 		lieutenant = {
+			{model = 'police1', price = 20000},
+			{model = 'police2', price = 20000},
+			{model = 'police3', price = 20000},
 			{model = 'riot', price = 70000},
 			{model = 'fbi2', price = 60000}
 		},
 
-		boss = {}
+		boss = {
+		{model = 'police1', price = 20000},
+		{model = 'police2', price = 20000},
+		{model = 'police3', price = 20000},
+		{model = 'riot', price = 70000},
+		{model = 'fbi2', price = 60000}
+		}
+
 	},
 
 	helicopter = {
@@ -148,7 +167,9 @@ Config.AuthorizedVehicles = {
 
 		officer = {},
 
-		sergeant = {},
+		sergeant = {
+			{model = 'polmav', props = {modLivery = 0}, price = 200000}
+		},
 
 		lieutenant = {
 			{model = 'polmav', props = {modLivery = 0}, price = 200000}
